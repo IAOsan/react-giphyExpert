@@ -1,0 +1,26 @@
+{
+	"name": "giffy-expert",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"lint": "eslint --max-warnings=0 src",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "browser-sync start --server 'dist' --files 'dist' --no-open"
+	},
+	"dependencies": {
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.15",
+		"@types/react-dom": "^18.0.6",
+		"@vitejs/plugin-react": "^2.0.0",
+		"eslint": "^8.0.0",
+		"eslint-config-react-app": "^7.0.1",
+		"vite": "^3.0.0"
+	}
+}
