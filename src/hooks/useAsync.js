@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 
-function useAsync({ initialValue, asyncFunc, props }) {
+function useAsync({ initialValue, asyncFunc, props = [] }) {
 	const [data, setData] = useState(initialValue);
 	const [isLoading, setIsLoading] = useState(true);
 	const [error, setError] = useState(null);
@@ -42,7 +42,7 @@ function useAsync({ initialValue, asyncFunc, props }) {
 		};
 	}, [execute, initTrackingValues.props]);
 
-	return [data, isLoading, error, execute];
+	return [data, isLoading, error];
 }
 
 export default useAsync;

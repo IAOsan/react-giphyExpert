@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`<HandleState /> > should render child component if no loading, empty or error state 1`] = `null`;
+
+exports[`<HandleState /> > should render loading component provided if have error 1`] = `<mock-error />`;
+
+exports[`<HandleState /> > should render loading component provided if isEmpty 1`] = `<mock-empty />`;
+
+exports[`<HandleState /> > should render loading component provided if isLoading 1`] = `<mock-loading />`;

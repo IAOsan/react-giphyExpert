@@ -11,7 +11,7 @@ function Header({ onSearch }) {
 	return (
 		<header className='bg-primary py-4'>
 			<div className='container'>
-				<h1 className='h2 text-light'>GiftExpert App</h1>
+				<h1 className='h2 text-light'>GifExpert App</h1>
 				<Form
 					fields={[
 						{

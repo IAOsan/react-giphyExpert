@@ -1,0 +1,69 @@
+// Vitest Snapshot v1
+
+exports[`<App /> > should be render properly 1`] = `
+<main>
+  <header
+    class="bg-primary py-4"
+  >
+    <div
+      class="container"
+    >
+      <h1
+        class="h2 text-light"
+      >
+        GifExpert App
+      </h1>
+      <form>
+        <div
+          class="form-group py-4"
+        >
+          <input
+            class="form-control"
+            name="query"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+      </form>
+    </div>
+  </header>
+  <div
+    class="container"
+  />
+</main>
+`;
+
+exports[`<App /> > should be renderer properly 1`] = `
+<main>
+  <header
+    class="bg-primary py-4"
+  >
+    <div
+      class="container"
+    >
+      <h1
+        class="h2 text-light"
+      >
+        GifExpert App
+      </h1>
+      <form>
+        <div
+          class="form-group py-4"
+        >
+          <input
+            class="form-control"
+            name="query"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+      </form>
+    </div>
+  </header>
+  <div
+    class="container"
+  />
+</main>
+`;

@@ -1,0 +1,13 @@
+// Vitest Snapshot v1
+
+exports[`<GifsListItem /> > should render element properly 1`] = `
+<div
+  class="col-lg-4 col-md-2"
+>
+  <img
+    alt="testing image"
+    class="img-fluid my-2"
+    src="https://dummyimage.com/360x360/fff/aaa"
+  />
+</div>
+`;

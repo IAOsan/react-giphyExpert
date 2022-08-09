@@ -23,7 +23,7 @@ function GifsList({ query }) {
 				config={{
 					loadingStateElement: <Spinner />,
 					emptyStateElement: <EmptyState />,
-					errorStateElement: <ErrorState />,
+					errorStateElement: <ErrorState msg={error?.message} />,
 				}}
 			>
 				<div className='row'>
@@ -40,12 +40,8 @@ function EmptyState() {
 	return <p className='text-muted'>No results found :C</p>;
 }
 
-function ErrorState() {
-	return (
-		<p className='text-danger'>
-			{error?.message || 'Something went wrong'}
-		</p>
-	);
+function ErrorState({ msg }) {
+	return <p className='text-danger'>{msg || 'Something went wrong'}</p>;
 }
 
 GifsList.propTypes = {
